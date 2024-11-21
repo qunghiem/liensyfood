@@ -1,0 +1,63 @@
+/*start contact form*/
+.main-cus {
+  background: url("../image/bg-contact.jpg");
+  background-size: cover;
+}
+
+.form-contact-cus {
+  border-radius: 10px;
+  margin-top: 100px;
+  background: #D9D9D9 !important;
+  padding: 30px 80px !important;
+  margin-bottom: 100px;
+  width: 50% !important;
+  label {
+    color: #54321B;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  input,
+  .form-textarea-wrapper {
+    border: 2px solid #54321B; /* Đặt viền dày 2px và màu đỏ */
+    padding: 10px;
+    border-radius: 5px; /* Bo tròn các góc */
+    color: rgba(200, 140, 61, 0.7);
+    background: #D9D9D9;
+  }
+  .form-textarea-wrapper {
+    padding: 0;
+    &:focus {
+      border-color: #54321B; /* Đổi màu viền thành màu xanh */
+      outline: none; /* Loại bỏ đường viền mặc định khi focus */
+      background: #D9D9D9;
+    }
+    textarea {
+      background: #D9D9D9;
+    }
+  }
+  input:focus {
+    border-color: #54321B; /* Đổi màu viền thành màu xanh */
+    outline: none; /* Loại bỏ đường viền mặc định khi focus */
+    background: #D9D9D9;
+  }
+  button {
+    padding: 14px 70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: #54321B;
+    margin-top: 30px;
+    border: 1px solid #54321B;
+    &:hover {
+      background: #A78039!important;
+      border: 1px solid #A78039;
+    }
+    i {
+      display: none;
+    }
+
+  }
+}
+/*end contact form*/

@@ -1,0 +1,54 @@
+// css bài viết
+.list-news {
+    margin-top: 50px;
+    img {
+        width: 326px;
+        border-radius: 30px;
+        transition: transform 0.3s ease;
+    }
+    img:hover {
+        transform: scale(1.2);
+    }
+    .title {
+        width: 70%;
+        margin-left: 60px;
+        a {
+            color: #54321B;
+        }
+
+    }
+    .author p {
+        color: #54321B;
+    }
+
+}
+
+// css phân trang
+.pagination {
+    li {
+        margin-left: 30px;
+        background-color: #ffff;
+        border-radius: 5px;
+    }
+    a {
+        border-radius: 5px;
+        color: #54321B;
+    }
+}
+
+// hoạt động
+.pagination .page-item.active .page-link {
+    background-color: #54321B;
+    color: #C88C3D;
+}
+// mặc định
+.pagination .page-item .page-link {
+    color: #54321B;
+    background-color: #ffff;
+}
+// đầu và cuối
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+    background-color: #C88C3D;
+    color: white;
+}

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 7890b94c-bc32-407e-825c-372ebb7240ba
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'video trang chủ'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<div class="px-4 py-5 my-5 text-center"><img data-entity-uuid="32692d1a-69e6-4c8b-a989-b4e117c58026" data-entity-type="file" src="/sites/default/files/inline-images/Vector.png" width="141" height="141" alt="image" data-align="center"></div>'
+      format: full_html
+      summary: ''

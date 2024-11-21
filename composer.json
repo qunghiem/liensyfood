@@ -1,0 +1,160 @@
+{
+    "name": "drupal/recommended-project",
+    "description": "Project template for Drupal projects with a relocated document root",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/drupal",
+    "support": {
+        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
+        "chat": "https://www.drupal.org/node/314178"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/admin_toolbar": "^3.5",
+        "drupal/block_class": "2.0.x-dev@dev",
+        "drupal/blockgroup": "^2.0",
+        "drupal/bootstrap5_admin": "1.0.x-dev",
+        "drupal/bootstrap_layout_builder": "^2.1",
+        "drupal/bootstrap_table": "^1.0",
+        "drupal/c5bb": "^1.0",
+        "drupal/ckeditor5_bootstrap_accordion": "1.x-dev",
+        "drupal/ckeditor5_entity_browser": "^1.0",
+        "drupal/ckeditor5_plugin_pack": "^1.1",
+        "drupal/ckeditor5_premium_features": "^1.2",
+        "drupal/ckeditor5_template": "^1.0",
+        "drupal/ckeditor_bs_grid": "2.1.x-dev@dev",
+        "drupal/ckeditor_codemirror": "^3.1",
+        "drupal/commerce": "^2.40",
+        "drupal/core-composer-scaffold": "^10.3",
+        "drupal/core-project-message": "^10.3",
+        "drupal/core-recommended": "^10.3",
+        "drupal/default_content": "2.0.x-dev#b85c0192af51841518bddd9ecfa5077b1d0f720a",
+        "drupal/features": "^3.14",
+        "drupal/field_group_bootstrap": "^3.0",
+        "drupal/geofield": "1.x-dev@dev",
+        "drupal/google_analytics": "^4.0",
+        "drupal/gridstack": "^2.15",
+        "drupal/gutenberg": "^3.0",
+        "drupal/lazy": "^4.0",
+        "drupal/leaflet": "10.2.x-dev@dev",
+        "drupal/menu_bootstrap_icon": "1.x-dev@dev",
+        "drupal/metatag": "^2.0",
+        "drupal/paragraphs": "^1.18",
+        "drupal/paragraphs_table": "^2.0",
+        "drupal/pathauto": "^1.0",
+        "drupal/rate": "^3.1",
+        "drupal/scheduler": "2.x-dev@dev",
+        "drupal/schema_metatag": "3.0.x-dev@dev",
+        "drupal/seo_checklist": "5.2",
+        "drupal/simple_sitemap": "^4.1",
+        "drupal/slick": "^2.0",
+        "drupal/slick_views": "^2.0",
+        "drupal/smtp": "^1.4",
+        "drupal/toc_ng": "1.0.x-dev@dev",
+        "drupal/twig_tweak": "^3.4",
+        "drupal/views_attach_library": "^2.0",
+        "drupal/views_bootstrap": "5.5.x-dev@dev",
+        "drupal/views_infinite_scroll": "^2.0",
+        "drupal/webp": "^1.0@RC",
+        "drupal/yoast_seo": "2.0.0-alpha10",
+        "drush/drush": "^12.5",
+        "wikimedia/composer-merge-plugin": "^2.1"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "php-http/discovery": true,
+            "wikimedia/composer-merge-plugin": true,
+            "cweagans/composer-patches": true,
+            "ergebnis/composer-normalize": true,
+            "oomphinc/composer-installers-extender": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
+        },
+        "merge-plugin": {
+            "include": [
+                "web/modules/contrib/ckeditor_codemirror/composer.libraries.json"
+            ]
+        },
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
+                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/installing-drupal",
+                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+                "  * Get support: https://www.drupal.org/support",
+                "  * Get involved with the Drupal community:",
+                "      https://www.drupal.org/getting-involved",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        },
+        "enable-patching": true,
+        "patches": {
+            "drupal/default_content": {
+                "patch 10": "patches/import_content.patch",
+                "#3160146": "https://www.drupal.org/files/issues/2022-12-06/default_content-3160146-53.patch",
+                "ui_default_content": "https://www.drupal.org/files/issues/2024-03-11/ui_default_content.patch"
+            }
+        }
+    }
+}

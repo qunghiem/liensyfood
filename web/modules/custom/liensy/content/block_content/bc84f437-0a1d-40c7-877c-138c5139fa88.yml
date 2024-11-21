@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: bc84f437-0a1d-40c7-877c-138c5139fa88
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'dịch vụ nổi bật trang chủ'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<div class="container mt-4"><div class="pt-3"><h1 class="text-center pt-5" style="color:#C88C3D;">Dịch vụ nổi bật</h1><div class="d-flex w-100"><div class="px-4 py-5 my-5 text-center"><img src="/sites/default/files/inline-images/a.png" data-align="center" data-entity-uuid="46e76453-2215-4c19-9533-d4b0637d112a" data-entity-type="file" alt="image" width="228" height="193"><h3 class="" style="color:#C88C3D;">Nguyên liệu an toàn</h3><div class="col-7 mx-auto"><p class="lead mb-4 text-white">Tạo ra các gói combo nguyên liệu theo chủ đề giúp khách hàng tiết kiệm thời gian và tiền bạc khi mua sắm.</p></div></div><div class="px-4 py-5 my-5 text-center"><img src="/sites/default/files/inline-images/b.png" data-align="center" data-entity-uuid="ce590506-7ac4-4f87-9263-f609b45ee85c" data-entity-type="file" alt="image" width="179" height="193"><h3 class="" style="color:#C88C3D;">Hỗ trợ tư vấn công thức</h3><div class="col-12 mx-auto"><p class="lead mb-4 text-white">Tư vấn và chia sẻ những công thức làm bánh độc đáo, phù hợp với từng loại nguyên liệu.</p></div></div><div class="px-4 py-5 my-5 text-center"><img src="/sites/default/files/inline-images/c_0.png" data-align="center" data-entity-uuid="8844070b-f43f-410e-b38f-c2fddc28096b" data-entity-type="file" alt="image" width="205" height="193"><h3 class="" style="color:#C88C3D;">Khuyến mãi theo mùa</h3><div class="col-12 mx-auto"><p class="lead mb-4 text-white">Tạo các gói sản phẩm hoặc ưu đãi đặc biệt theo mùa lễ hội, như Giáng sinh hay Tết</p></div></div><div class="px-4 py-5 my-5 text-center"><img src="/sites/default/files/inline-images/d.png" data-align="center" data-entity-uuid="64c7488d-8a4d-4512-84ef-bc3055d86414" data-entity-type="file" alt="image" width="145" height="193"><h3 class="" style="color:#C88C3D;">Dịch vụ tận tâm</h3><div class="col-10 mx-auto"><p class="lead mb-4 text-white">Sự tỉ mỉ, tận tâm và chuyên nghiệp luôn là huyết mạch trong phục vụ</p></div></div></div></div></div>'
+      format: full_html
+      summary: ''

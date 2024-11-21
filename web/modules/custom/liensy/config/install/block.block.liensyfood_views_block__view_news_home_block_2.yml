@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.view_news_home
+  module:
+    - block_class
+    - views
+  theme:
+    - liensyfood
+third_party_settings:
+  block_class:
+    classes: col-6
+id: liensyfood_views_block__view_news_home_block_2
+theme: liensyfood
+region: group_news_home
+weight: 0
+provider: null
+plugin: 'views_block:view_news_home-block_2'
+settings:
+  id: 'views_block:view_news_home-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

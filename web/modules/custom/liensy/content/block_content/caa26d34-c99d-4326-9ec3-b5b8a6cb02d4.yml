@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: caa26d34-c99d-4326-9ec3-b5b8a6cb02d4
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'tin tức trang chủ'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<div class="container mt-5 mb-5"><div class="row justify-content-between align-items-center"><div class="col-10 d-flex justify-content-center ps-5"><h1 class="fw-bold text-center ms-5 ps-5" style="color:#54321B;">&nbsp; &nbsp; &nbsp; TIN TỨC</h1></div><div class="col-2 d-flex justify-content-end pe-5"><a class="text-decoration-none" style="color:#54321B;" href="#">Xem thêm &gt;&gt;</a></div></div></div>'
+      format: full_html
+      summary: ''

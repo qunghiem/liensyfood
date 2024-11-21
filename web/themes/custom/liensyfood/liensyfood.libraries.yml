@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/review_product_modal.js: {}
+    //code.jquery.com/ui/1.12.1/jquery-ui.min.js: { type: external, minified: true }
+    js/header.js: {}

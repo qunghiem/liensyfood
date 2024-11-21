@@ -1,0 +1,19 @@
+// Sub theme styling.
+@import 'variables_drupal';
+
+// Bootstrap override variables.
+// @see https://getbootstrap.com/docs/5.3/customize/sass/#variable-defaults.
+@import 'variables_bootstrap';
+@import 'site_product';
+@import 'news';
+@import 'detail_product';
+@import "variables_cus";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "base";
+@import "about_us";
+@import "contact_form";
+@import 'home';
+
+
+

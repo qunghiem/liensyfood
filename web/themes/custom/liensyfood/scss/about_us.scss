@@ -1,0 +1,127 @@
+/*start about-us*/
+article[data-history-node-id="4"] {
+  .banner-au {
+    position: relative;
+
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .title {
+      z-index: 5;
+      color: #fff;
+      position: absolute;
+      font-size: 70px;
+      bottom: 5%;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .col-cus {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .story-share {
+    background: #F0EFEF;
+    margin-top: -16px;
+    overflow: visible;
+
+    .title {
+      font-size: 3rem;
+      color: #23346B !important;
+    }
+
+    .inner-content {
+      color: #A78039;
+      font-size: 1.5rem;
+    }
+
+    .flower-ou {
+      position: absolute;
+      bottom: -300px;
+      z-index: 500;
+    }
+  }
+
+  .your-cmt {
+    background: #F0EFEF;
+    padding: 50px 0;
+    margin-top: -22px;
+
+    .cmt {
+      color: #23346B;
+      font-size: 3rem;
+    }
+
+    .carousel-item {
+      transition: transform 1s ease-in-out;
+    }
+
+    .desc,
+    .author {
+      color: #C88C3D;
+      font-size: 1.2rem;
+    }
+  }
+
+  .slider .carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.video-1 .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.banner-about-us .carousel-inner .carousel-item>div {
+  padding: 0;
+}
+
+/*end about us*/
+// nút next slide
+.carousel {
+  overflow: unset;
+  margin-bottom: 48px;
+
+  .carousel-control-prev {
+    top: -33px;
+    left: -13px!important;
+    .carousel-control-prev-icon {
+      background-image: unset !important;
+      width: 39px;
+      height: 39px;
+    }
+
+    .carousel-control-prev-icon::before {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: url(../image/Vector.svg) no-repeat 100% 100% !important;
+    }
+  }
+
+  .carousel-control-next {
+    top: -33px;
+
+    .carousel-control-next-icon {
+      width: 39px;
+      height: 39px;
+      background-image: unset !important;
+    }
+
+    .carousel-control-next-icon::before {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: url(../image/Vector2.svg) no-repeat 100% 100% !important;
+    }
+  }
+}

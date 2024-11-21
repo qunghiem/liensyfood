@@ -1,0 +1,43 @@
+name: liensy
+type: module
+description: liensy
+package: liensy
+core_version_requirement: '^9.4 || ^10'
+dependencies:
+  - 'block_class:block_class'
+  - 'commerce:commerce'
+  - 'commerce:commerce_product'
+  - 'drupal:block'
+  - 'drupal:field'
+  - 'drupal:file'
+  - 'drupal:image'
+  - 'drupal:layout_builder'
+  - 'drupal:layout_discovery'
+  - 'drupal:menu_ui'
+  - 'drupal:node'
+  - 'drupal:path'
+  - 'drupal:taxonomy'
+  - 'drupal:text'
+  - 'drupal:user'
+  - 'drupal:views'
+  - 'liensy:liensy'
+  - 'views_bootstrap:views_bootstrap'
+  - 'views_infinite_scroll:views_infinite_scroll'
+default_content:
+  node:
+    - 868972c0-0347-4e81-8472-4c2f7b8b7c05
+    - b0f170fa-2328-4dfc-b78d-55a665d05a36
+    - 4d38667d-94cf-473a-bcf9-ff959b1a668a
+  block_content:
+    - 4e43fa59-3ae8-4d5f-b52f-1626719cb623
+    - 1c5bcf93-3191-42e4-a590-3bf811327831
+    - caa26d34-c99d-4326-9ec3-b5b8a6cb02d4
+    - e4bb9903-cb4e-4137-b3ba-7c3ede176e8f
+    - bc84f437-0a1d-40c7-877c-138c5139fa88
+    - 9a37b196-2958-43c5-8ba5-f42e7503006a
+    - 7890b94c-bc32-407e-825c-372ebb7240ba
+    - c8547a4a-76e4-499c-96d7-2b760266ee98
+    - 5cbb638e-3871-4da1-a9d3-c7ba2321e239
+    - eeb173a2-cc5d-4abb-a6d0-ea390f885cdb
+    - 99908431-e6bd-486a-9731-27cc4e82408c
+    - e05684be-9fad-4d5d-886e-8da0ad300113

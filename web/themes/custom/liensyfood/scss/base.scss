@@ -1,0 +1,48 @@
+@import "variables_cus";
+
+* {
+  font-family: $font-content;
+}
+//code dùng chung
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row-cus,
+.row-custom {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+._none {
+  overflow: hidden;
+}
+
+main {
+  margin-top: 67px;
+  background: #F0EFEF;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.col-text-four {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-product-custom .carousel-inner .row {
+  margin-left: 0!important;
+}
+
+.group_header .nav-item a {
+  padding-right: 0!important;
+}
+
+body {
+  background: #F0EFEF;;
+}
+
+//code dùng chung end

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 3e8aa017-27ab-4cf7-b449-06f6b9eab9ab
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: bg-1
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<img data-entity-uuid="edc2975d-f3c8-44fa-a252-1b22a3792c43" data-entity-type="file" src="/sites/default/files/inline-images/Mask%20group%20%283%29.png" width="1519" height="512">'
+      format: basic_html
+      summary: ''

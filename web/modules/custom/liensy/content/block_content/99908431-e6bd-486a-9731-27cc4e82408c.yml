@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 99908431-e6bd-486a-9731-27cc4e82408c
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: share-story
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<div class="px-4 py-5 my-5 text-center"><div class="fs-1"><img src="/sites/default/files/inline-images/XCVB%404x%201.png" data-entity-uuid="5cd9301f-a248-4fd2-aea3-a71b4493829f" data-entity-type="file" width="71" height="81"></div><h1 class="display-5 text-body-emphasis">Chia sẻ từng câu chuyện</h1><div class="col-lg-6 mx-auto"><p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div><div class="fs-1"><img data-entity-uuid="aaacddd4-3c5f-4b55-b87d-b3081432845f" data-entity-type="file" src="/sites/default/files/inline-images/image%206.png" width="207" height="82"></div></div>'
+      format: full_html
+      summary: ''

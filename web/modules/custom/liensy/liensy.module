@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * @file
+ * Comment.
+ */
+use Drupal\user\Entity\User;
+
+/**
+ * @file
+ * Primary module hooks for liensy module.
+ */
+
+
+function liensy_form_paragraphs_table_add_alter(&$form, &$form_state, $form_id) {
+    if ($form["#paragraph"]->bundle() == "product_reviews") {
+        $current_user = User::load(\Drupal::currentUser()->id());
+        $form['rate_field'] = [
+            '#type' => 'rate',  // Loại trường từ module Rate hoặc Fivestar
+            '#title' => t('Rate this item'),
+            '#plugin_id' => 'rate_star',  // Plugin ID bạn đã cấu hình
+            '#default_value' => 0,  // Giá trị mặc định
+            '#min' => 0,
+            '#max' => 5,
+        ];
+        $form["field_pr_user"]["widget"][0]["target_id"]['#default_value'] = $current_user;
+        $form["field_pr_email"]["widget"][0]["value"]["#placeholder"] = 'Nhập email';
+        $form["field_pr_comment"]["widget"][0]["#placeholder"] = 'Nhập đánh giá của bạn';
+    }
+}

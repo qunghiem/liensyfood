@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 1c5bcf93-3191-42e4-a590-3bf811327831
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: footer
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<div class="container mt-4"><div class="d-flex text-start"><div class="d-flex"><div class="col-text-one"><a class="text-decoration-none" href="#"><img src="/sites/default/files/inline-images/Group%20%282%29.png" data-entity-uuid="283e1646-dce2-4417-bc83-d21bf62d30bb" data-entity-type="file" alt="image" width="117" height="105"></a></div><div class="col-text-two"><h5 class="text-white">CÔNG TY TNHH LIÊN SĨ FOOD</h5><ul class="list-unstyled"><li class="text-white"><img src="/sites/default/files/inline-images/Vector%20%283%29.png" data-entity-uuid="bcd03884-0ca1-4d07-be0f-f5b7c8c119d8" data-entity-type="file" alt="image" width="24" height="17"> Địa chỉ: TP Hà Nội</li><li class="text-white"><img src="/sites/default/files/inline-images/Vector%20%284%29.png" data-entity-uuid="3be406cc-dfe8-4909-a71d-7acb40e27302" data-entity-type="file" alt="image" width="22" height="18"> (+84) 833007887</li><li class="text-white"><img src="/sites/default/files/inline-images/Vector%20%285%29.png" data-entity-uuid="839c99bc-6806-4b4b-92e4-5434cd87f467" data-entity-type="file" alt="image" width="20" height="16"> liensifood.hn@gmail.com</li></ul></div><div class="col-text-three"><a href="#"><img src="/sites/default/files/inline-images/Vector%20%281%29.png" data-entity-uuid="b4e2f5c8-c732-4452-ab6b-f24e7010cc7a" data-entity-type="file" alt="image" width="30" height="30"></a> <a href="#"><img src="/sites/default/files/inline-images/Subtract.png" data-entity-uuid="d4c8cf02-ad13-4285-b209-76569cbada0e" data-entity-type="file" alt="image" width="30" height="30"></a><a> <img src="/sites/default/files/inline-images/Vector%20%282%29.png" data-entity-uuid="09a85521-07b6-465b-96c4-6458e87d9202" data-entity-type="file" alt="image" width="30" height="30"></a><br><a class="content-footer text-decoration-none text-white" href="#">Về chúng tôi</a>&nbsp;<br><a class="content-footer text-decoration-none text-white" href="#">Hướng dẫn sử dụng</a></div><div class="col-text-four"><a class="text-decoration-none text-white" href="#">Liên hệ</a><br><a class="content-footer text-decoration-none text-white" href="#">Điều khoản</a></div></div></div></div>'
+      format: full_html
+      summary: ''
